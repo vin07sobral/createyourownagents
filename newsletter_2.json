@@ -1,0 +1,46 @@
+{
+    "name": "Newsletter 2",
+    "agents": [
+        "ai_tech_researcher",
+        "ai_content_writer",
+        "ai_reviewer"
+    ],
+    "framework": "LangChain",
+    "llm": "LM Studio",
+    "tools_config": {
+        "ai_tech_researcher": {
+            "type": "Web Search",
+            "engine": "Google",
+            "query": "AI Startups"
+        },
+        "ai_content_writer": {
+            "type": "Research Topic",
+            "topic": "AI Startups",
+            "depth": 3
+        },
+        "ai_reviewer": {
+            "type": "Research Topic",
+            "topic": "",
+            "depth": 3
+        }
+    },
+    "status": "Completed",
+    "last_run": "2024-11-14 14:11:01",
+    "output": [
+        {
+            "agent": "ai_tech_researcher",
+            "timestamp": "2024-11-14 14:11:01",
+            "result": "Completed task for ai_tech_researcher"
+        },
+        {
+            "agent": "ai_content_writer",
+            "timestamp": "2024-11-14 14:11:01",
+            "result": "Completed task for ai_content_writer"
+        },
+        {
+            "agent": "ai_reviewer",
+            "timestamp": "2024-11-14 14:11:01",
+            "result": "Completed task for ai_reviewer"
+        }
+    ]
+}

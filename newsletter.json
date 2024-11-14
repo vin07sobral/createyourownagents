@@ -1,0 +1,28 @@
+{
+    "name": "Newsletter",
+    "agents": [
+        "ai_tech_researcher",
+        "ai_content_writer",
+        "ai_reviewer"
+    ],
+    "framework": "CrewAI",
+    "status": "Completed",
+    "last_run": "2024-11-14 14:17:54",
+    "output": [
+        {
+            "agent": "ai_tech_researcher",
+            "timestamp": "2024-11-14 14:17:54",
+            "result": "Completed task for ai_tech_researcher"
+        },
+        {
+            "agent": "ai_content_writer",
+            "timestamp": "2024-11-14 14:17:54",
+            "result": "Completed task for ai_content_writer"
+        },
+        {
+            "agent": "ai_reviewer",
+            "timestamp": "2024-11-14 14:17:54",
+            "result": "Completed task for ai_reviewer"
+        }
+    ]
+}
